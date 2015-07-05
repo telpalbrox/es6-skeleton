@@ -1,0 +1,45 @@
+{
+  "name": "es6",
+  "version": "0.0.1",
+  "description": "Alberto Luna ES6 basic proyect",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt karma:app"
+  },
+  "author": "Alberto Luna <alberto.luna.95@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.2.2",
+    "bootstrap-webpack": "0.0.3",
+    "css-loader": "^0.15.1",
+    "file-loader": "^0.8.4",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.11.2",
+    "grunt-webpack": "^1.0.11",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.37",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-sourcemap-loader": "^0.3.5",
+    "karma-spec-reporter": "0.0.19",
+    "karma-webpack": "^1.5.1",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "load-grunt-tasks": "^3.2.0",
+    "node-libs-browser": "^0.5.2",
+    "phantomjs": "^1.9.17",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.1",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.1",
+    "jquery": "^2.1.4"
+  }
+}

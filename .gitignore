@@ -1,0 +1,9 @@
+.idea/
+public/
+node_modules/
+app/bundle.js
+app/*.woff
+app/*.eot
+app/*.ttf
+app/*.svg
+app/bundle.js.map
