@@ -2,28 +2,30 @@
 
 ## Description
 This is an opinionated ES6 + Grunt + webpack skeleton, also include bootstrap.
-Include webpack as module bundler, grunt as task runner, karma as test runner, Jasmine as testing framework and less as css preprocessor.
+
+This proyect include webpack as module bundler, grunt as task runner, karma as test runner, Jasmine as testing framework and less as css preprocessor.
+
 You can config bootstrap from config/bootstrap/bootstrap.config.js and config/bootstrap/bootstrap.less. For more information visit [bootstrap-webpack](https://github.com/bline/bootstrap-webpack).
 
 ## Installation
-1. Clone this repo
-2. Install global packages
+* Clone this repo
+* Install global packages
 ```
 sudo npm install -g grunt-cli karma-cli webpack webpack-dev-server
 ```
-3. Install local packages
+* Install local packages
 ```
 npm install
 ```
-4. Run tests
+* Run tests
 ```
 npm test
 ```
-5. Build app
+* Build app
 ```
 grunt build
 ```
-6. Launch app from publc/index.html
+* Launch app from publc/index.html
 
 ## Development
 Entry point is app/index.js, from here load all your js and main less.
